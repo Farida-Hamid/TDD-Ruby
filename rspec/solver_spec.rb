@@ -1,4 +1,4 @@
-require '../solver'
+require_relative '../solver'
 
 describe 'Test the solver class:' do
   result = Solver.new
