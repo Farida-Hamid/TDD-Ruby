@@ -1,10 +1,8 @@
 require '../solver'
 
 describe "Test the solver class:" do
-
+  result = Solver.new
   context "Test the factorial method:" do
-    result = Solver.new
-
     it "The factorial of 6 should be 720" do
       expect(result.factorial(6)).to eql 720
     end
