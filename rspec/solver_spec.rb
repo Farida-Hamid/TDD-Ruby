@@ -20,6 +20,10 @@ describe "Test the solver class:" do
      expect(result.reverse("hello")). to eql "olleh"
   end
 
-  xit "Test the fizzbuzz method:" do
+  it "Test the fizzbuzz method:" do
+    expect(result.fizzbuzz(25)).to eql "Buzz"
+    expect(result.fizzbuzz(9)).to eql "Fizz"
+    expect(result.fizzbuzz(30)).to eql "FizzBuzz"
+    expect(result.fizzbuzz(13)).to eql 13.to_s
   end
 end
