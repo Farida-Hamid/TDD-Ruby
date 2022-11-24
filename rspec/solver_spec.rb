@@ -18,7 +18,8 @@ describe "Test the solver class:" do
     end
   end
   
-  xit "Test the reverse method:" do
+  it "Test the reverse method:" do
+     expect(result.reverse("hello")). to eql "olleh"
   end
 
   xit "Test the fizzbuzz method:" do
